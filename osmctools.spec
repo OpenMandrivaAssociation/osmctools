@@ -1,7 +1,7 @@
 Summary:	Tools to manipulate OpenStreetMap files
 Name:		osmctools
 Version:	0.9
-Release:	1
+Release:	2
 # Debian man pages are GPLv2+
 License:	AGPLv3 and GPLv2+
 Group:		File tools
@@ -14,6 +14,7 @@ Source3:	osmupdate.1
 BuildRequires:	pkgconfig(zlib)
 Requires:	rsync
 Requires:	wget
+%rename osmconvert
 
 %description
 Small collection of basic OpenStreetMap tools, include converter, filter and
